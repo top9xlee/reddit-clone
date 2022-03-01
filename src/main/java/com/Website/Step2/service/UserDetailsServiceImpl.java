@@ -18,7 +18,7 @@ import static java.util.Collections.singletonList;
 
 @Service
 @AllArgsConstructor
-public class UserDetailsServicveImpl implements UserDetailsService {
+public class UserDetailsServiceImpl implements UserDetailsService {
     private final UserRepository userRepository;
 
     @Override
