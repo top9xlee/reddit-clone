@@ -1,6 +1,7 @@
 package com.Website.Step2.model;
-
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -17,9 +18,6 @@ import static javax.persistence.GenerationType.IDENTITY;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Getter
-@Setter
-@Table(name = "reddit_users")
 public class User {
     @Id
     @GeneratedValue(strategy = IDENTITY)
